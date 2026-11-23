@@ -29,7 +29,7 @@
 
 ### 📦 獨立執行檔使用說明（免安裝 Python）
 
-若您是直接從 GitHub 的 **[Releases](../../releases)** 頁面下載已發布的 `影音音訊通用下載器.exe`，您**不需要安裝 Python 也不需設定 FFmpeg**（均已內建打包），下載後直接點擊即可執行。
+若您是直接從 GitHub 的 **[Releases](../../releases)** 頁面下載已發布的 `Universal-YT&podcast-Audio Downloader.exe`，您**不需要安裝 Python 也不需設定 FFmpeg**（均已內建打包），下載後直接點擊即可執行。
 
 #### ⚠️ 關於防毒軟體與 Windows SmartScreen 安全警告
 > **重要說明**：
@@ -60,7 +60,7 @@
      ```bash
      brew install ffmpeg
      ```
-   - Linux (Ubuntu/Debian):
+ - Linux (Ubuntu/Debian):
      ```bash
      sudo apt update && sudo apt install -y ffmpeg
      ```
@@ -101,7 +101,7 @@ python public_downloader.py
 
 ### 🔨 重新封裝執行檔注意事項 (開發者參考)
 
-> **說明**：一般使用者請直接由 Releases 下載打包好的 `.exe` 即可。若開發者自行修改原始碼後欲重新封裝：
+> **說明**：一般使用者請直接由 Releases 下載打包好的 `Universal-YT&podcast-Audio Downloader.exe` 即可。若開發者自行修改原始碼後欲重新封裝：
 > - 專案根目錄已提供 `影音音訊通用下載器.spec` 打包配置檔。
 > - 自行打包時請留意本機 `ffmpeg.exe` 與 `ffprobe.exe` 的路徑需正確設定於 spec 檔中，或使用 `pyinstaller public_downloader.py` 進行基礎封裝。
 
@@ -140,7 +140,7 @@ A lightweight, fast, and user-friendly terminal tool featuring an interactive st
 
 ### 📦 Standalone Executable Guide (No Python Required)
 
-If you downloaded the pre-compiled `影音音訊通用下載器.exe` from the **[Releases](../../releases)** tab, **you do not need to install Python or FFmpeg** (everything is bundled). Just double-click to launch.
+If you downloaded the pre-compiled `Universal-YT&podcast-Audio Downloader.exe` from the **[Releases](../../releases)** tab, **you do not need to install Python or FFmpeg** (everything is bundled). Just double-click to launch.
 
 #### ⚠️ Security Warning (Windows SmartScreen & Antivirus)
 > **Notice**:
